@@ -1,0 +1,182 @@
+/* font script */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/* form Body */
+html,body{
+    background: #780206;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#formBody{
+    margin: auto;
+    width: 80%;
+    height: 900px;
+    /* background-color: aliceblue; */
+    border-radius: 10px;
+}
+
+/* Header Text */
+#Headtext{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Open Sans',
+    sans-serif;
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* .formContent{
+    margin: 20px;
+} */
+
+/* formrow content */
+.formrow{
+   margin: auto;
+   width: 80%;
+   height: 45px ;
+   margin-top: 15px;
+   /* background-color: dimgray; */
+   border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.formrow>input{
+    width: 33%;
+    height: 45px;
+    border: gray  solid 1.5px;
+    border-radius: 5px;
+    padding-left: 25px ;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: large;
+}
+
+/* form Placeholder */
+.formrow>input::placeholder{
+    /* padding-left: 25px; */
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: medium;
+    color: #fff;
+}
+
+/* form Text Area */
+.formrow>textarea{
+    width: 99.8%;
+    font-family: 'Open Sans',
+    sans-serif;
+    padding-left: 25px;
+    font-size: medium;
+    border: gray solid 2px;
+    border-radius: 5px;
+    background: none;
+    
+
+}
+.formrow>textarea::placeholder{
+    margin-top: 1% 0;
+    color: #fff;
+}
+
+/* label{
+    display: block;
+    margin: auto;
+} */
+
+
+/* Country Option  */
+
+.formrow>select{
+    width:100%;
+    border: gray solid 1.5px;
+    border-radius: 5px;
+    padding-left: 25px;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: medium;
+    background: none;
+    color: gray;
+}
+
+/* GENDER  */
+
+.sptogther{
+    margin: 1.5% 10% ;
+    display: flex;
+    
+}
+.sp{
+    margin-right: 20px;
+    
+}
+.radiooptions{
+    color: #fff;
+}
+
+
+
+/* button  */
+.button{
+   display: flex;
+   justify-content: center;
+   margin-top: 15%;
+
+}
+
+.formrow>button{
+    width: 20%;
+    
+    font-family: 'Open Sans',
+    sans-serif;
+    background: #e96443;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #904e95, #e96443);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    cursor: pointer;
+    
+
+    
+}
+.formrow>button:hover{
+    background: #2196f3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f44336, #2196f3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f44336, #2196f3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  
+}
+
+.Test{
+    background: none;
+    color: #fff
+}
+
+.formrow p{
+
+ margin: 13% auto  0;
+ color: #fff;
+}
+
+
+
+
